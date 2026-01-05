@@ -7,7 +7,6 @@ odm            /odm        ext4    display="ODM"
 
 # Physical partitions
 /boot          emmc        /dev/block/boot                       flags=backup=1;display="Boot";flashimg=1
-/recovery      emmc        /dev/block/recovery                   flags=backup=1;display="Recovery";flashimg=1
 /misc          emmc        /dev/block/misc
 /vbmeta        emmc        /dev/block/vbmeta
 /metadata      emmc        /dev/block/metadata
